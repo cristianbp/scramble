@@ -1,94 +1,91 @@
-let words = [
+// A list of words and their corresponding hints
+const wordList = [
     {
-        word: "addition",
-        hint: "The process of adding numbers"
+      word: "addition",
+      hint: "The process of adding numbers",
     },
     {
-        word: "meeting",
-        hint: "Event in which people come together"
+      word: "canvas",
+      hint: "Piece of fabric for oil painting",
     },
     {
-        word: "number",
-        hint: "Math symbol used for counting"
+      word: "comfort",
+      hint: "A pleasant feeling of relaxation",
     },
     {
-        word: "exchange",
-        hint: "The act of trading"
+      word: "country",
+      hint: "A politically identified region",
     },
     {
-        word: "canvas",
-        hint: "Piece of fabric for oil painting"
+      word: "exchange",
+      hint: "The act of trading",
     },
     {
-        word: "garden",
-        hint: "Space for planting flower and plant"
+      word: "expert",
+      hint: "Person with extensive knowledge",
     },
     {
-        word: "position",
-        hint: "Location of someone or something"
+      word: "field",
+      hint: "Area of land for farming activities",
     },
     {
-        word: "feather",
-        hint: "Hair like outer covering of bird"
+      word: "friend",
+      hint: "Person other than a family member",
     },
     {
-        word: "comfort",
-        hint: "A pleasant feeling of relaxation"
+      word: "group",
+      hint: "A number of objects or persons",
     },
     {
-        word: "tongue",
-        hint: "The muscular organ of mouth"
+      word: "library",
+      hint: "Place containing collection of books",
     },
     {
-        word: "expansion",
-        hint: "The process of increase or grow"
+      word: "meeting",
+      hint: "Event in which people come together",
     },
     {
-        word: "country",
-        hint: "A politically identified region"
+      word: "needle",
+      hint: "A thin and sharp metal pin",
     },
     {
-        word: "group",
-        hint: "A number of objects or persons"
+      word: "number",
+      hint: "Math symbol used for counting",
     },
     {
-        word: "taste",
-        hint: "Ability of tongue to detect flavour"
+      word: "pocket",
+      hint: "A bag for carrying small items",
     },
     {
-        word: "store",
-        hint: "Large shop where goods are traded"
+      word: "position",
+      hint: "Location of someone or something",
     },
     {
-        word: "field",
-        hint: "Area of land for farming activities"
+      word: "second",
+      hint: "One-sixtieth of a minute",
     },
     {
-        word: "friend",
-        hint: "Person other than a family member"
+      word: "statement",
+      hint: "A declaration of something",
     },
     {
-        word: "pocket",
-        hint: "A bag for carrying small items"
+      word: "store",
+      hint: "Large shop where goods are traded",
     },
     {
-        word: "needle",
-        hint: "A thin and sharp metal pin"
+      word: "taste",
+      hint: "Ability of tongue to detect flavour",
     },
     {
-        word: "expert",
-        hint: "Person with extensive knowledge"
+      word: "tongue",
+      hint: "The muscular organ of mouth",
     },
     {
-        word: "statement",
-        hint: "A declaration of something"
+      word: "feather",
+      hint: "Hair-like outer covering of bird",
     },
     {
-        word: "second",
-        hint: "One-sixtieth of a minute"
+      word: "expansion",
+      hint: "The process of increase or grow",
     },
-    {
-        word: "library",
-        hint: "Place containing collection of books"
-    },
-]
+  ];
