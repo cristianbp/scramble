@@ -1,3 +1,9 @@
+window.onload = function() {
+    const name = prompt("Please enter your name:");
+    const contestantEl = document.querySelector(".contestant");
+    contestantEl.innerHTML = `${name}`;
+};
+
 const wordText = document.querySelector(".word"),
     hintText = document.querySelector(".hint span"),
     timeText = document.querySelector(".time b"),
