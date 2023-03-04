@@ -1,5 +1,5 @@
 // A list of words and their corresponding hints
-const wordList = [
+const words = [
     {
       word: "addition",
       hint: "The process of adding numbers",
