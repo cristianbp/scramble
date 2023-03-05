@@ -41,12 +41,23 @@ const initGame = () => {
 initGame();
 
 
+const pointsText = document.querySelector(".points");
+
 const checkWord = () => {
     let userWord = inputField.value.toLowerCase();
     if (!userWord) return alert("Please enter the word to check!");
-    if (userWord !== correctWord) return alert(`Oops! ${userWord} is not a correct word`);
-    alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
-    initGame();
+    if (userWord !== correctWord) {
+        alert(`Oops! ${userWord} is not a correct word`);
+        lifeText.innerText = lifeText.innerText.slice(0, -1); // restar un corazón
+        if (lifeText.innerText === "") {
+            alert("Game over! You ran out of lives.");
+            initGame();
+        }
+    } else {
+        alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
+        pointsText.innerText = parseInt(pointsText.innerText) + 1; // agregar un punto
+        initGame();
+    }
 }
 
 refreshBtn.addEventListener("click", initGame);
@@ -58,3 +69,6 @@ const handleKeyPress = event => {
     }
 }
 inputField.addEventListener("keypress", handleKeyPress);
+
+const lifeText = document.querySelector(".life");
+
